@@ -1,0 +1,80 @@
+
+
+* { box-sizing: border-box; }
+.logo {
+border-radius: 50%;
+height: 38px;
+width: auto;
+object-fit: contain;
+}
+
+
+/* Utility classes to quickly change logo size */
+.logo--sm { height: 26px; }
+.logo--md { height: 38px; }
+.logo--lg { height: 52px; }
+
+
+/* Full control: set both width and height */
+.logo--w100 { width: 100px; height: auto; }
+.logo--w150 { width: 150px; height: auto; }
+
+
+/* Responsive adjustments */
+@media (max-width: 820px) {
+.logo { height: 32px; }
+.logo--lg { height: 44px; }
+}
+
+
+@media (max-width: 420px) {
+.logo { height: 28px; }
+.logo--lg { height: 36px; }
+}
+
+.navbar {
+width: 100%;
+background: #005ee0;
+background: linear-gradient(0deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1) 86%, rgba(201, 218, 245, 1) 100%);
+top: 0;
+z-index: 50;
+}
+
+
+.navbar__container {
+max-width: 1100px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.brand {
+font-size: 1.3rem;
+font-weight: 700;
+text-decoration: none;
+color: #1f2937;
+}
+
+
+.nav {
+display: flex;
+}
+
+
+.nav__list {
+display: flex;
+justify-content: space-between;
+gap: 36px;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+
+.nav__link {
+text-decoration: none;
+color: #ffffff;
+font-size: 1.08rem;
+}

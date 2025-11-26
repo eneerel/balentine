@@ -1,0 +1,34 @@
+/* Container - 2 колоонтой */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 80px;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Зүүн тал */
+.left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0 50px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Баруун тал */
+.right {
+   flex: 1;
+  padding-right: 40px;
+}
