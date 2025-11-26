@@ -9,12 +9,11 @@ export default function Hero() {
         alt="Hero banner" 
         className="hero__img"
       />
-
       <div className="hero__overlay" />
 
       <div className="hero__content">
         <h1>Tandy Promotion Agency</h1>
-        <p>Амталгаа, идэвхжүүлэлт, event үйлчилгээ</p>
+        <p>Амталгаа, идэвхжүүлэлт, танилцуулга үйлчилгээ</p>
       </div>
     </section>
   );

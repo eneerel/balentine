@@ -1,0 +1,37 @@
+.footer {
+  background-color: #111;      /* хар өнгө */
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer__content p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer__social {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer__social a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+  color: #f39c12; /* хөөрхөн шар өнгөөр hover effect */
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .footer__social {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

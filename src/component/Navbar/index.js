@@ -16,9 +16,10 @@ return (
 
 <nav className={`nav ${open ? 'nav--open' : ''}`} aria-label="Primary">
 <ul className="nav__list">
+<li className="nav__item"><a href="#Home" className="nav__link">Нүүр хуудас</a></li>
 <li className="nav__item"><a href="#about" className="nav__link">Бидний тухай</a></li>
-<li className="nav__item"><a href="#services" className="nav__link">Үйлчилгээ</a></li>
-<li className="nav__item"><a href="#contact" className="nav__link nav__link--cta"></a></li>
+<li className="nav__item"><a href="#services" className="nav__link">Үйл ажилгааны чиглэл</a></li>
+<li className="nav__item"><a href="#contact" className="nav__link">Холбоо барих</a></li>
 </ul>
 </nav>
 

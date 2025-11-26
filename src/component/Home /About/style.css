@@ -1,0 +1,98 @@
+.company-intro {
+  background-color: #111;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Company info paragraph */
+.company-intro .title {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Container for 4 boxes */
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;          /* responsive-д stacked болгох */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Each intro box */
+.intro-box {
+  background-color: #222;
+  flex: 1;                  /* ижил өргөнтэй */
+  min-width: 250px;         /* хамгийн бага өргөн */
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.intro-box:hover {
+  transform: translateY(-5px);
+  background-color: #333;
+}
+
+/* Icon */
+.intro-icon {
+  display: block;
+  margin: 0 auto 16px;
+  font-size: 3rem;
+  color: #f39c12;
+}
+
+/* Title */
+.intro-title {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Description */
+.intro-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .intro-container {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;  /* mobile-д stacked болгох */
+  }
+
+  .intro-box {
+    min-width: 100%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .intro-title {
+    font-size: 1.5rem;
+  }
+
+  .intro-description {
+    font-size: 0.95rem;
+  }
+}
