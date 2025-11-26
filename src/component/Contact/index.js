@@ -20,21 +20,24 @@ export default function Contact() {
   referrerPolicy="no-referrer-when-downgrade"
 ></iframe>
         </div>
-
-        {/* Right - Contact info */}
         <div className="contact-info">
-          <h3>Хаяг:</h3>
-          <p>Улаанбаатар, UBH center 9 давхар 916 тоот</p>
-
-          <h3>Утас:</h3>
-          <p>+ 69661999</p>
-          <p>+ 69662999</p>
-
-          <h3>И-мэйл:</h3>
-          <p>tandypromotionagency@gmail.com</p>
-
-          <h3>Ажиллах цаг:</h3>
-          <p>Даваа - Баасан: 11:00 - 18:00</p>
+        <div className="box">
+        <h3>Хаяг:</h3>
+        <p>Улаанбаатар, UBH center 9 давхар 916 тоот</p>
+        </div>
+        <div className="box">
+        <h3>Утас:</h3>
+        <p>+ 69661999</p>
+        <p>+ 69662999</p>
+        </div>
+        <div className="box">
+        <h3>И-мэйл:</h3>
+        <p>tandypromotionagency@gmail.com</p>
+        </div>
+        <div className="box">
+        <h3>Ажиллах цаг:</h3>
+        <p>Даваа - Баасан: 11:00 - 18:00</p>
+        </div>
         </div>
       </div>
     </section>
