@@ -9,16 +9,16 @@ export default function Contact() {
       <div className="contact-container">
         {/* Left - Map */}
         <div className="map-container">
-          <iframe
-            title="Tandy Office Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.9727680835917!2d106.92154027645029!3d47.91756437122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9692476541435f%3A0x3d0ea636e74f9173!2z0JDQvdC20LXQuyDQrdC80L3RjdC70Y3Qsw!5e0!3m2!1smn!2smn!4v1764140286560!5m2!1smn!2smn"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+         <iframe
+  title="Tandy Office Location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.9749994183585!2d106.91892108882999!3d47.91752119701309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693070c94f155%3A0xb6b995b92847a6a4!2sUBH%20center%20MJC%20consulting%20agensy!5e0!3m2!1smn!2smn!4v1764141143388!5m2!1smn!2smn"
+  width="100%"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
         </div>
 
         {/* Right - Contact info */}
