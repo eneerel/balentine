@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar__container">
         <a href="#" className="brand">
-          <img src="/tandylogo.jpeg" alt="Logo" className="logo" />
+          <img src="/logoo.png" alt="Logo" className="logo" />
         </a>
 
         <nav className={`nav ${open ? "nav--open" : ""}`} aria-label="Primary">

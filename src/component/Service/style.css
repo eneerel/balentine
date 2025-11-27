@@ -1,6 +1,5 @@
 .services-section {
- background: #005ee0;
-background: linear-gradient(180deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1) 44%, rgba(201, 218, 245, 1) 100%);   
+ background: #000000; 
   color: #fffefe;
   padding: 80px 20px;
   text-align: center;
@@ -22,7 +21,7 @@ background: linear-gradient(180deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1
 }
 
 .service-box {
-  background-color:rgb(161, 192, 241);
+  background-color:rgb(0, 0, 0);
   flex: 1;                   
   min-width: 250px;             
   padding: 30px 20px;
@@ -33,7 +32,7 @@ background: linear-gradient(180deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1
 
 .service-box:hover {
   transform: translateY(-5px);
-  background-color:rgba(0, 94, 224, 1);
+  background-color:rgb(41, 41, 41);
 }
 
 .service-title {
@@ -44,6 +43,11 @@ background: linear-gradient(180deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1
 .service-description {
   font-size: 1rem;
   line-height: 1.6;
+}
+.service-icon {
+  font-size: 40px;
+  color: orange; 
+  margin-bottom: 10px;
 }
 
 /* Responsive */

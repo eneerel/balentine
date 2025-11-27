@@ -1,0 +1,34 @@
+.partners {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.partners__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.partners__item {
+  display: block;
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.partners__item:hover {
+  transform: scale(1.1);
+}
+
+.partners__logo {
+  width: 100%;
+  object-fit: contain;
+}

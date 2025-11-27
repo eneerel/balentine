@@ -3,8 +3,7 @@
   position: relative;
   overflow: hidden;
   height: 100vh;
-   background: #005ee0;
-  background: linear-gradient(180deg, rgba(0, 94, 224, 1) 0%, rgba(74, 136, 237, 1) 44%, rgba(201, 218, 245, 1) 100%);
+   background: #000000;
 }
 
 
